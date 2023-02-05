@@ -7,7 +7,7 @@ void *thread_func(void *param); /* потоковая функция */
 
 int main(int argc, char *argv[]) {
   pthread_t tid; /* идентификатор потока */
-  pthread_attr_t attr; /* aттрибуты потока */
+  pthread_attr_t attr; /* aтрибуты потока */
 
 if (argc != 2) {
   fprintf(stderr,"usage: progtest <integer value>\n");
