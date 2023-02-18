@@ -1,3 +1,6 @@
+// ./a.out "/usr/bin/puthon3" for_nulevochka.txt. -- how to test this problem
+
+
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdio.h>
