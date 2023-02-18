@@ -1,3 +1,6 @@
+// ./a.out file.txt >output.txt
+// ./a.out file.txt 
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <fcntl.h>
