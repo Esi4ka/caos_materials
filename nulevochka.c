@@ -1,4 +1,4 @@
-// ./a.out "/usr/bin/puthon3" for_nulevochka.txt. -- how to test this problem
+// ./a.out "/usr/bin/python3" for_nulevochka.txt. -- how to test this problem
 
 
 #include <unistd.h>
