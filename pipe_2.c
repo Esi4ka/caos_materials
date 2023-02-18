@@ -4,9 +4,7 @@
 
 void runpipe();
 
-int
-main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
 	int pid, status;
 	int fd[2];
 
@@ -33,11 +31,8 @@ main(int argc, char **argv)
 char *cmd1[] = { "/bin/ls", "-al", "/", 0 };
 char *cmd2[] = { "/usr/bin/tr", "a-z", "A-Z", 0 };
 
-void
-runpipe(int pfd[])
-{
+void runpipe(int pfd[]) {
 	int pid;
-
 	switch (pid = fork()) {
 
 	case 0: /* child */
